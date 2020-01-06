@@ -21,5 +21,7 @@ class UserController {
         );
     }
 
-    public static function
+    public static function auth() {
+        
+    }
 }
