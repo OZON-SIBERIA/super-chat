@@ -1,12 +1,12 @@
 <?php
 
 
-namespace App\Entity;
+namespace App;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\ProductRepository")
  */
 class Message {
     /**
